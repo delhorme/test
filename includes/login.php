@@ -13,7 +13,7 @@ if (isset($_POST['formlogin'])) {
         {
             //le compte existe bien
 
-            if (password_verify($lpassword, $result['password']))
+            if (password_verify($lpassword, $result ['password']))
             {
                 echo "Le mot de passe est bon, connexion en cours";
             }
