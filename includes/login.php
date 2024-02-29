@@ -8,12 +8,15 @@ if (isset($_POST['formlogin'])) {
         $q = $db->prepare("SELECT * FROM users WHERE email = :email");
         $q->execute(['email' => $lemail]);
         $result = $q->fetch();
-echo'1';
+
         if ($result == true) {
             //le compte existe bien
-            echo'2';
+
             if (password_verify($lpassword, $result['password'])) {
                 echo "Le mot de passe est bon, connexion en cours";
+                $_SESSION['email']= $result['email'];
+                $_SESSION['date']= $result['date'];
+
             } else {
                 echo "Le mot de passe n'est pas correct";
             }
