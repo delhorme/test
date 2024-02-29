@@ -1,12 +1,4 @@
-<?php session_start();
-
-$_SESSION['pseudo'] = "Laurent";
-$_SESSION['age'] = 51;
-
-session_unset();
-session_destroy();
-
-?>
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html>
@@ -19,14 +11,14 @@ session_destroy();
 
     <h1>Bienvenue sur votre profil !</h1>
     <?php
-    if (isset($_SESSION['pseudo']) && (isset($_SESSION['age']))) {
+    if (isset($_SESSION['email']) && (isset($_SESSION['date']))) {
         ?>
 
-        <p>Votre pseudo :
-            <?= $_SESSION['pseudo']; ?>
+        <p>Votre Email :
+            <?= $_SESSION['email']; ?>
         </p>
-        <p>Votre age :
-            <?= $_SESSION['age']; ?>
+        <p>Votre date :
+            <?= $_SESSION['date']; ?>
         </p>
 
         <?php
