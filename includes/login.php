@@ -17,10 +17,10 @@ if (isset($_POST['formlogin'])) {
             {
                 echo "Le mot de passe est bon, connexion en cours";
             }
-            else 
-            {
-                echo "Le mot de passe n'est pas correct";
-            }
+            // else 
+            // {
+            //     echo "Le mot de passe n'est pas correct";
+            // }
         } 
         else 
         {
