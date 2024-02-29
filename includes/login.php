@@ -3,7 +3,8 @@
 if (isset($_POST['formlogin'])) {
     extract($_POST);
 
-    if (!empty($lemail) && !empty($lpassword)) {
+    if (!empty($lemail) && !empty($lpassword)) 
+    {
 
         $q = $db->prepare("SELECT * FROM users WHERE email = :email");
         $q->execute(['email' => $lemail]);
