@@ -12,7 +12,7 @@ if (isset($_POST['formlogin'])) {
         if ($result == TRUE) {
             //le compte existe bien
 
-            if (password_verify($lpassword, $result['password'])) {
+            if (password_verify($password, $result['password'])) {
                 echo "Le mot de passe est bon, connexion en cours";
                 $_SESSION['email'] = $result['email'];
                 $_SESSION['password'] = $result['password'];
