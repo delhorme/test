@@ -9,7 +9,7 @@
 
 <body>
 
-    <h1>Bienvenue sur votre profil !</h1>
+    <!-- <h1>Bienvenue sur votre profil !</h1>
     <?php
     if (isset($_SESSION['email']) && (isset($_SESSION['date']))) {
         ?>
@@ -29,7 +29,7 @@
 
     include 'includes/database.php';
     global $db;
-    ?>
+    ?> -->
     <h1>Login</h1>
     <form method="post">
         <input type="email" name="lemail" id="lemail" placeholder="Votre Email" required><br />
