@@ -17,7 +17,7 @@ if (isset($_POST['formlogin'])) {
                 $_SESSION['email'] = $result['email'];
                 $_SESSION['password'] = $result['password'];
            } else {
-                echo "Le mot de passe n'est pas correct";
+                echo "Le mot de passe n'est pas correct !";
             }
         } else {
             echo "Le compte portant l'email " . $lemail . " n'existe pas";
