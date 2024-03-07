@@ -11,14 +11,14 @@
 
     <!-- <h1>Bienvenue sur votre profil !</h1>
     <?php
-    if (isset($_SESSION['email']) && (isset($_SESSION['date']))) {
+    if (isset($_SESSION['email']) && (isset($_SESSION['password']))) {
         ?>
 
         <p>Votre Email :
             <?= $_SESSION['email']; ?>
         </p>
         <p>Votre date :
-            <?= $_SESSION['date']; ?>
+            <?= $_SESSION['password']; ?>
         </p>
 
         <?php
