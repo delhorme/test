@@ -9,7 +9,8 @@ if (isset($_POST['formlogin'])) {
         $q->execute(['email' => $lemail]);
         $result = $q->fetch();
 
-        if ($result == TRUE) {
+        if ($result == TRUE) 
+        {
             //le compte existe bien
 
             if (password_verify($lpassword, $result['password'])) 
