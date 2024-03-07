@@ -34,7 +34,7 @@
     
     <h1>Login</h1>
     <form method="post">
-        <input type="email" name="lemail" id="lemail" placeholder="Votre Email" required><br />
+        <input type="email" name="lemail" id="lemail" placeholder="Votre Email !" required><br />
         <input type="password" name="lpassword" id="lpassword" placeholder="Entrez votre mot de passe" required><br />
         <input type="submit" name="formlogin" id="formlogin" value="Login">
     </form>
