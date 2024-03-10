@@ -11,7 +11,7 @@
     <?php
 
     if (isset($_SESSION['email']) && (isset($_SESSION['password']))) {
-        ?>
+    ?>
 
         <p>Votre Email :
             <?= $_SESSION['email']; ?>
@@ -20,7 +20,7 @@
             <?= $_SESSION['date']; ?>
         </p>
 
-        <?php
+    <?php
     } else {
         echo "Veuillez vous connecter à votre compte";
     }
