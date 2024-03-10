@@ -30,3 +30,4 @@ if (isset($_POST['formlogin'])) {
         echo "Veuillez compléter l'ensemble des champs";
     }
 }
+?>
