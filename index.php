@@ -28,7 +28,7 @@
 
     include 'includes/database.php';
     global $db;
-    ?> -->
+    ?>
 
     
     <h1>Login</h1>
