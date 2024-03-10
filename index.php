@@ -22,7 +22,7 @@
 
     <?php
     } else {
-        echo "Veuillez vous connecter à votre compte";
+        echo "Veuillez vous connecter à votre compte !";
     }
 
 
