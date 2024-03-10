@@ -1,8 +1,3 @@
-<?php session_start(); 
-$_SESSION['email']="";
-$_SESSION['password']='';
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -12,9 +7,9 @@ $_SESSION['password']='';
 
 <body>
 
-    <!-- <h1>Bienvenue sur votre profil !</h1>
+    <h1>Bienvenue sur votre profil !</h1>
     <?php
-    
+
     if (isset($_SESSION['email']) && (isset($_SESSION['password']))) {
         ?>
 
@@ -22,7 +17,7 @@ $_SESSION['password']='';
             <?= $_SESSION['email']; ?>
         </p>
         <p>Votre date :
-            <?= $_SESSION['password']; ?>
+            <?= $_SESSION['date']; ?>
         </p>
 
         <?php
