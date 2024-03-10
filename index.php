@@ -7,7 +7,7 @@
 
 <body>
 
-    <h1>Bienvenue sur votre profil !</h1>
+    <!-- <h1>Bienvenue sur votre profil !</h1> -->
     <?php
 
     if (isset($_SESSION['email']) && (isset($_SESSION['password']))) {
