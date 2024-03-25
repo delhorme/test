@@ -18,7 +18,7 @@ if (isset($_POST['formlogin'])) {
                 echo "Le mot de passe est bon, connexion en cours";
                 $_SESSION['email'] = $result['email'];
                 $_SESSION['date'] = $result['date'];
-                window.location.replace("http://premiere.php/");
+                <meta http-equiv="refresh" content="0;url=premiere.php">
             }
            else
            {
