@@ -18,7 +18,7 @@ if (isset($_POST['formlogin'])) {
                 echo "Le mot de passe est bon, connexion en cours";
                 $_SESSION['email'] = $result['email'];
                 $_SESSION['date'] = $result['date'];
-                <meta http-equiv="refresh" content="0;url=premiere.html">
+                <meta http-equiv="refresh" content="0;url=https://2alpeslocation.com/premiere.html">
             }
            else
            {
