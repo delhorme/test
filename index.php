@@ -40,7 +40,7 @@
 
     <?php include 'includes/login.php'; ?>
 
-    <h1>Signin</h1>
+    <h1>Signin !</h1>
     <form method="post">
         <input type="email" name="semail" id="semail" placeholder="Votre Email" required><br />
         <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe" required><br />
