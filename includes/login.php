@@ -18,9 +18,6 @@ if (isset($_POST['formlogin'])) {
                 echo "Le mot de passe est bon, connexion en cours";
                 $_SESSION['email'] = $result['email'];
                 $_SESSION['date'] = $result['date'];
-
-                header("Location: https://www.2alpeslocation.com/premiere.html");
-                exit();
             }
            else
            {
