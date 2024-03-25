@@ -19,10 +19,8 @@ if (isset($_POST['formlogin'])) {
                 $_SESSION['email'] = $result['email'];
                 $_SESSION['date'] = $result['date'];
 
-                header('Location: //https://2alpeslocation.com/premiere.html');
-                // or die();
-                 
-                  exit();
+                header("Location: https://www.2alpeslocation.com/premiere.html");
+                exit();
             }
            else
            {
